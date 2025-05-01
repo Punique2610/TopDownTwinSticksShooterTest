@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Ilumisoft/Behavior%20Tree%20Toolkit/Scripts/Editor/BehaviorTreeViewer.uss?fileID=7433441132597879392&amp;guid=a8486ab002044c14180888d7304898d5&amp;type=3#BehaviorTreeViewer" />
+    <uie:Toolbar />
+    <ui:VisualElement name="message-box-container" />
+    <ui:VisualElement name="content-container">
+        <ui:Label display-tooltip-when-elided="true" name="Owner-Label" style="-unity-font-style: bold; margin-left: 4px; margin-top: 4px; margin-bottom: 4px;" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" style="margin-left: 2px;" />
+    </ui:VisualElement>
+</ui:UXML>
