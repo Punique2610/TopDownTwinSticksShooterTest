@@ -2,3 +2,8 @@
 /Temp
 /Logs
 /.vs
+/obj
+/obj
+/obj/Debug
+*.cache
+*.cache
