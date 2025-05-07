@@ -6082,6 +6082,11 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114015822488491818, guid: d4529f47989526241929319abfdfc29d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114631977183020318, guid: d4529f47989526241929319abfdfc29d,
         type: 3}
       propertyPath: m_Color.b
@@ -6867,11 +6872,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4084177299949866717, guid: d4529f47989526241929319abfdfc29d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5878769138314388720, guid: d4529f47989526241929319abfdfc29d,
         type: 3}
       propertyPath: CameraTransform
       value: 
       objectReference: {fileID: 1160353690}
+    - target: {fileID: 8308789323159020241, guid: d4529f47989526241929319abfdfc29d,
+        type: 3}
+      propertyPath: RemapApertureOne
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308789323159020241, guid: d4529f47989526241929319abfdfc29d,
+        type: 3}
+      propertyPath: RemapApertureZero
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
