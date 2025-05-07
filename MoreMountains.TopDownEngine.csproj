@@ -131,7 +131,6 @@
     <Compile Include="Assets\TopDownEngine\Common\Scripts\GUI\SfxSwitch.cs" />
     <Compile Include="Assets\TopDownEngine\Common\Scripts\Spawn\CheckPoint.cs" />
     <Compile Include="Assets\TopDownEngine\Common\Scripts\Characters\AI\Advanced\AIDecisionDetectTargetConeOfVision2D.cs" />
-    <Compile Include="Assets\TopDownEngine\Demos\Loft3D\Scripts\Door3D.cs" />
     <Compile Include="Assets\TopDownEngine\Common\Scripts\GUI\PauseButton.cs" />
     <Compile Include="Assets\TopDownEngine\Demos\Deadline\Scripts\DeadlineLevelSelectionButton.cs" />
     <Compile Include="Assets\TopDownEngine\Common\Scripts\Characters\Health\DamageType.cs" />

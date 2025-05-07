@@ -60,9 +60,9 @@ namespace MoreMountains.TopDownEngine
 				{
 					AttachHandToHandle(AvatarIKGoal.LeftHand, LeftHandTarget);
 
-					_animator.SetLookAtWeight(HeadWeights.y);
-					_animator.SetLookAtPosition(LeftHandTarget.position);
-				}
+                    //_animator.SetLookAtWeight(HeadWeights.y);
+                    //_animator.SetLookAtPosition(LeftHandTarget.position);
+                }
 				else
 				{
 					DetachHandFromHandle(AvatarIKGoal.LeftHand);
