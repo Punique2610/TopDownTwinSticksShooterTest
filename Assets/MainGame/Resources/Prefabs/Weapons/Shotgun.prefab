@@ -446,7 +446,6 @@ GameObject:
   - component: {fileID: 114922138254092764}
   - component: {fileID: 95889161802339608}
   - component: {fileID: 8013718585774180965}
-  - component: {fileID: 114225316701939062}
   - component: {fileID: 114602549670299862}
   m_Layer: 0
   m_Name: Shotgun
@@ -592,7 +591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a011e1d486a6802409e3fa286e022be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AimControl: 3
+  AimControl: 2
   AimControlActive: 1
   RotationMode: 0
   WeaponRotationSpeed: 0
@@ -622,46 +621,6 @@ MonoBehaviour:
   AvoidNullAim: 1
   refTransform: {fileID: 0}
   <weaponDirectionRelativeToCharTransform>k__BackingField: {x: 0, y: 0, z: 0}
---- !u!114 &114225316701939062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801408263114154}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0514d297deadac74fb15a7b7326ff0d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AimControl: 3
-  AimControlActive: 1
-  RotationMode: 0
-  WeaponRotationSpeed: 10
-  MinimumAngle: -180
-  MaximumAngle: 180
-  MinimumMagnitude: 0.2
-  ReticleType: 2
-  Reticle: {fileID: 1373789777524232, guid: 65207112181da7b41bee2bb13af8b883, type: 3}
-  ReticleDistance: 0
-  ReticleHeight: 0
-  ReticleAtMousePosition: 1
-  RotateReticle: 1
-  ReplaceMousePointer: 1
-  MouseDeadZoneRadius: 2.5
-  DisplayReticle: 1
-  MoveCameraTargetTowardsReticle: 1
-  CameraTargetOffset: 0.3
-  CameraTargetMaxDistance: 5
-  CameraTargetSpeed: 5
-  Unrestricted3DAim: 0
-  AimCenter: 0
-  ReticleMovesWithSlopes: 0
-  ReticleObstacleMask:
-    serializedVersion: 2
-    m_Bits: 0
-  MaximumSlopeElevation: 50
-  AvoidNullAim: 1
 --- !u!114 &114602549670299862
 MonoBehaviour:
   m_ObjectHideFlags: 0

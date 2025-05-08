@@ -9833,10 +9833,7 @@ GameObject:
   - component: {fileID: 114650071556604532}
   - component: {fileID: 114417857300692596}
   - component: {fileID: 114208124916040460}
-  - component: {fileID: 114596890841688484}
-  - component: {fileID: 114218547530737672}
   - component: {fileID: 114480053559628854}
-  - component: {fileID: 114068638682900062}
   - component: {fileID: 114363647072666402}
   - component: {fileID: 114990486581502156}
   - component: {fileID: 114936781036801864}
@@ -10093,62 +10090,6 @@ MonoBehaviour:
   OffsetCrawl: {x: 0, y: -0.25, z: 0}
   OffsetSpeed: 10
   InATunnel: 0
---- !u!114 &114596890841688484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414176428383784}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d103439fc2940e347937487a70ea01e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 8300000, guid: f489554675a4a0241a8ef8938c1d6067,
-    type: 3}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  RunSpeed: 8
-  AutoRun: 0
-  AutoRunThreshold: 0.6
---- !u!114 &114218547530737672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414176428383784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c752f2958a762a144a00333487ac892f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  JumpProportionalToPress: 1
-  MinimumPressTime: 0.4
-  JumpForce: 800
-  JumpHeight: 2
-  CanJumpOnTooSteepSlopes: 1
-  ResetJumpsOnTooSteepSlopes: 0
-  NumberOfJumps: 1
-  NumberOfJumpsLeft: 0
-  JumpStartFeedback: {fileID: 0}
-  JumpStopFeedback: {fileID: 0}
 --- !u!114 &114480053559628854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10172,67 +10113,6 @@ MonoBehaviour:
   BlockingWeaponStates: 
   PreventJumpInButtonActivatedZone: 1
   ButtonActivatedZone: {fileID: 0}
---- !u!114 &114068638682900062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414176428383784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 893d1a748dcc4a247b555ae136c3d0df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
-  AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  DashMode: 1
-  DashSpace: 0
-  DashDirection: {x: 0, y: 0, z: 1}
-  DashDistance: 6
-  DashDuration: 0.5
-  DashCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  AllowDashWhenJumping: 0
-  Cooldown:
-    Unlimited: 0
-    ConsumptionDuration: 0.2
-    PauseOnEmptyDuration: 0.1
-    RefillDuration: 0.5
-    CanInterruptRefill: 1
-    CooldownState: 0
-    CurrentDurationLeft: 0
-  InvincibleWhileDashing: 0
-  DashFeedback: {fileID: 0}
 --- !u!114 &114363647072666402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10460,7 +10340,7 @@ MonoBehaviour:
   BlockingWeaponStates: 
   RotationMode: 3
   CharacterRotationAuthorized: 1
-  ShouldRotateToFaceMovementDirection: 1
+  ShouldRotateToFaceMovementDirection: 0
   MovementRotationSpeed: 0
   MovementRotatingModel: {fileID: 0}
   RotateToFaceMovementDirectionSpeed: 10

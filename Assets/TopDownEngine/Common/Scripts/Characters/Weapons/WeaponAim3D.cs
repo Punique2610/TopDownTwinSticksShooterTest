@@ -216,9 +216,8 @@ namespace MoreMountains.TopDownEngine
 			{
 				_lastNonNullMovement = _weapon.Owner.LinkedInputManager.LastNonNullSecondaryMovement;
 			}
-
 			_inputMovement = _weapon.Owner.LinkedInputManager.SecondaryMovement;
-			_inputMovement = _inputMovement.magnitude > MinimumMagnitude ? _inputMovement : _lastNonNullMovement;
+            _inputMovement = _inputMovement.magnitude > MinimumMagnitude ? _inputMovement : _lastNonNullMovement;
 
 			_currentAim.x = _inputMovement.x;
 			_currentAim.y = 0f;

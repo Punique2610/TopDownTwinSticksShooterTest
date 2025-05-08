@@ -270,7 +270,8 @@ namespace MoreMountains.TopDownEngine
 			{	
 				SetMovement();	
 				SetSecondaryMovement ();
-				SetShootAxis ();
+                Debug.Log(IsMobile);
+                SetShootAxis();
 				SetCameraRotationAxis();
 				GetInputButtons ();
 			}	
@@ -391,7 +392,7 @@ namespace MoreMountains.TopDownEngine
 		{
 			if (!IsMobile && InputDetectionActive)
 			{
-				if (SmoothMovement)
+                if (SmoothMovement)
 				{
 					_secondaryMovement.x = Input.GetAxis(_axisSecondaryHorizontal);
 					_secondaryMovement.y = Input.GetAxis(_axisSecondaryVertical);		
@@ -402,7 +403,7 @@ namespace MoreMountains.TopDownEngine
 					_secondaryMovement.y = Input.GetAxisRaw(_axisSecondaryVertical);
 				}
 				_secondaryMovement = ApplyCameraRotation(_secondaryMovement);
-			}
+            }
 		}
 
 		/// <summary>
@@ -465,7 +466,7 @@ namespace MoreMountains.TopDownEngine
 				_secondaryMovement.x = movement.x;
 				_secondaryMovement.y = movement.y;
 			}
-			_secondaryMovement = ApplyCameraRotation(_secondaryMovement);
+            _secondaryMovement = ApplyCameraRotation(_secondaryMovement);
 		}
 
 		/// <summary>
