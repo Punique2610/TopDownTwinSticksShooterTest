@@ -6424,7 +6424,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1293090706971054, guid: d4529f47989526241929319abfdfc29d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1304819333894276, guid: d4529f47989526241929319abfdfc29d, type: 3}
       propertyPath: m_IsActive
@@ -6436,7 +6436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1538330116775648, guid: d4529f47989526241929319abfdfc29d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1605715693569274, guid: d4529f47989526241929319abfdfc29d, type: 3}
       propertyPath: m_IsActive
@@ -6602,6 +6602,11 @@ PrefabInstance:
     - target: {fileID: 114712502986753904, guid: d4529f47989526241929319abfdfc29d,
         type: 3}
       propertyPath: InputForcedMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114712502986753904, guid: d4529f47989526241929319abfdfc29d,
+        type: 3}
+      propertyPath: HideMobileControlsInEditor
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114853728058338730, guid: d4529f47989526241929319abfdfc29d,
@@ -19150,7 +19155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1759788507
 RectTransform:
   m_ObjectHideFlags: 0
