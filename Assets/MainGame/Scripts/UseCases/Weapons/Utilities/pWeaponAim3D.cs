@@ -28,8 +28,8 @@ public class pWeaponAim3D : WeaponAim3D
     {
         base.Update();
 
-        if (refTransform != null)
-            weaponDirectionRelativeToCharTransform = CalculateRelativeDirection((CurrentAim - refTransform.position).normalized, refTransform.forward);
+        //if (refTransform != null)
+            //weaponDirectionRelativeToCharTransform = CalculateRelativeDirection((CurrentAim - refTransform.position).normalized, refTransform.forward);
     }
 
     protected Vector3 CalculateRelativeDirection(Vector3 forwardCal, Vector3 forwardRef)

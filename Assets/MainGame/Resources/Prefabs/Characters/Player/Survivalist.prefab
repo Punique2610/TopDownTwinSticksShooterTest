@@ -25884,6 +25884,7 @@ GameObject:
   - component: {fileID: 3147619295547302310}
   - component: {fileID: 6906573978893862348}
   - component: {fileID: 2393529957702514053}
+  - component: {fileID: 1106203684985394281}
   m_Layer: 10
   m_Name: SK_Military_Survivalist (2)
   m_TagString: Untagged
@@ -25973,6 +25974,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WalkFeedbacks: {fileID: 4533227241748219107}
   RunFeedbacks: {fileID: 1805879205824050221}
+--- !u!205 &1106203684985394281
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7629275938098519578}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.0012483597, y: 0.85743785, z: -0.013152435}
+  m_Size: 1.35
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3535744592728548171}
+    - renderer: {fileID: 484627361430678902}
+    - renderer: {fileID: 6559952105122616030}
+    - renderer: {fileID: 3608400451863003622}
+    - renderer: {fileID: 2808975042524199922}
+    - renderer: {fileID: 3360789477709587838}
+    - renderer: {fileID: 6562537404981576406}
+  - screenRelativeHeight: 0.125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3535744592728548171}
+    - renderer: {fileID: 484627361430678902}
+    - renderer: {fileID: 6559952105122616030}
+    - renderer: {fileID: 3608400451863003622}
+    - renderer: {fileID: 2808975042524199922}
+    - renderer: {fileID: 3360789477709587838}
+    - renderer: {fileID: 6562537404981576406}
+  - screenRelativeHeight: 0.01
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3535744592728548171}
+    - renderer: {fileID: 484627361430678902}
+    - renderer: {fileID: 6559952105122616030}
+    - renderer: {fileID: 3608400451863003622}
+    - renderer: {fileID: 2808975042524199922}
+    - renderer: {fileID: 3360789477709587838}
+    - renderer: {fileID: 6562537404981576406}
+  m_Enabled: 1
 --- !u!1 &7744173694675352832
 GameObject:
   m_ObjectHideFlags: 0
