@@ -8,3 +8,5 @@
 *.cache
 *.cache
 /obj
+/obj
+UserSettings/Layouts/default-2022.dwlt
