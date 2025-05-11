@@ -270,7 +270,6 @@ namespace MoreMountains.TopDownEngine
 			{	
 				SetMovement();	
 				SetSecondaryMovement ();
-                Debug.Log(IsMobile);
                 SetShootAxis();
 				SetCameraRotationAxis();
 				GetInputButtons ();

@@ -83,6 +83,7 @@
     <Compile Include="Assets\MainGame\Scripts\UseCases\Characters\pCharacterOrientation3D.cs" />
     <Compile Include="Assets\Military\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Low Poly Guns\Scripts\GunsMenu.cs" />
+    <Compile Include="Assets\LocalAxesGizmos.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
   </ItemGroup>
