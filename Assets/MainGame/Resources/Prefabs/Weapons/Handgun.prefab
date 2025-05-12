@@ -20271,7 +20271,7 @@ MonoBehaviour:
   InitializeOnStart: 1
   Interruptable: 0
   Flipped: 0
-  ProjectileSpawnOffset: {x: 0, y: 0.07, z: 0.53}
+  ProjectileSpawnOffset: {x: 0, y: 0.07, z: 0.49}
   DefaultProjectileDirection: {x: 0, y: 0, z: 1}
   ProjectilesPerShot: 1
   SpawnTransforms: []
@@ -20279,7 +20279,7 @@ MonoBehaviour:
   Spread: {x: 0, y: 0, z: 0}
   RotateWeaponOnSpread: 0
   RandomSpread: 1
-  SpawnPosition: {x: 0, y: 0.07, z: 0.53}
+  SpawnPosition: {x: 0, y: 0.07, z: 0.49}
   ObjectPooler: {fileID: 0}
   SpawnFeedbacks: []
   TestShootButton: 0
@@ -20674,7 +20674,7 @@ Transform:
   m_GameObject: {fileID: 4745857282779223559}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000000011343097, y: -0.06099994, z: 0.389}
+  m_LocalPosition: {x: 0, y: -0.06099994, z: 0.389}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
