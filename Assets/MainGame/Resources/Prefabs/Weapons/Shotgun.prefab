@@ -495,7 +495,7 @@ MonoBehaviour:
   BurstLength: 0
   BurstTimeBetweenShots: 0
   MagazineBased: 1
-  MagazineSize: 30
+  MagazineSize: 10
   AutoReload: 1
   NoInputReload: 1
   ReloadTime: 1
@@ -516,7 +516,7 @@ MonoBehaviour:
   MovementMultiplier: 0
   PreventAllMovementWhileInUse: 0
   PreventAllAimWhileInUse: 0
-  RecoilForce: 0
+  RecoilForce: 2
   Animators:
   - {fileID: 95889161802339608}
   PerformAnimatorSanityChecks: 0
@@ -546,15 +546,15 @@ MonoBehaviour:
   InitializeOnStart: 1
   Interruptable: 0
   Flipped: 0
-  ProjectileSpawnOffset: {x: 0, y: 0.14, z: 0.57}
+  ProjectileSpawnOffset: {x: 0, y: 0.08, z: 0.66}
   DefaultProjectileDirection: {x: 0, y: 0, z: 1}
   ProjectilesPerShot: 5
   SpawnTransforms: []
   SpawnTransformsMode: 1
-  Spread: {x: 5, y: 5, z: 5}
+  Spread: {x: 5, y: 5, z: 10}
   RotateWeaponOnSpread: 0
   RandomSpread: 1
-  SpawnPosition: {x: 0, y: 0.14, z: 0.57}
+  SpawnPosition: {x: 0, y: 0.08, z: 0.66}
   ObjectPooler: {fileID: 0}
   SpawnFeedbacks: []
   TestShootButton: 0
@@ -11756,7 +11756,7 @@ MonoBehaviour:
           ButtonText: Automatic Shaker Setup
         Owner: {fileID: 7010715773421453478}
         DebugActive: 0
-        Sfx: {fileID: 8300000, guid: f79de2b80bfc68740b28914b652413bb, type: 3}
+        Sfx: {fileID: 8300000, guid: 4a1760fc7e7cdce41932d1c47da26867, type: 3}
         RandomSfx: []
         TestPlayButton:
           ButtonText: Debug Play Sound
@@ -11768,8 +11768,8 @@ MonoBehaviour:
         StopSoundOnFeedbackStop: 1
         MinVolume: 1
         MaxVolume: 1
-        MinPitch: 1
-        MaxPitch: 1
+        MinPitch: 0.75
+        MaxPitch: 1.25
         SfxAudioMixerGroup: {fileID: 0}
         Priority: 128
         PanStereo: 0
