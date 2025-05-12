@@ -6391,12 +6391,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649741744}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eae4cb8f997d6c744a6172cbaa8cb264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundClip: {fileID: 8300000, guid: d9bd6fc8739e8504482affb6f0c2d2a9, type: 3}
+  SoundClip: {fileID: 8300000, guid: b092a05726c446a4b96992badad8b63c, type: 3}
   Loop: 1
   ID: 255
 --- !u!4 &649741746
@@ -7378,6 +7378,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1427770363831421434, guid: d4529f47989526241929319abfdfc29d,
+        type: 3}
+      propertyPath: CameraDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4084177299949866717, guid: d4529f47989526241929319abfdfc29d,
         type: 3}
@@ -17151,7 +17156,7 @@ Transform:
   m_GameObject: {fileID: 1618121291}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 8.92, y: -0.5, z: 33}
+  m_LocalPosition: {x: 8.37, y: 2.37, z: 60.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17169,7 +17174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f359eb84f4e17794791e62eb88e8c6a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FacingDirection: 1
+  FacingDirection: 3
   ForceAssignation: 0
   CheckPointOrder: 0
 --- !u!1001 &1623813010
