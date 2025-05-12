@@ -932,7 +932,7 @@ GameObject:
   - component: {fileID: 4766409304820008974}
   - component: {fileID: 7585060421511358981}
   - component: {fileID: 8594324559190631416}
-  - component: {fileID: 1670187091177500077}
+  - component: {fileID: 1596198876185908006}
   m_Layer: 13
   m_Name: ZombieSmallFast
   m_TagString: Untagged
@@ -1405,7 +1405,7 @@ MonoBehaviour:
   LockHandlesOnXAxis: 0
   LockHandlesOnYAxis: 0
   LockHandlesOnZAxis: 0
---- !u!114 &1670187091177500077
+--- !u!114 &1596198876185908006
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
