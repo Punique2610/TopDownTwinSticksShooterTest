@@ -5112,8 +5112,8 @@ MonoBehaviour:
     Transitions:
       array:
       - Decision: {fileID: 2583289445958312494}
-        TrueState: 
-        FalseState: Patrolling
+        TrueState: Patrolling
+        FalseState: 
   TimeInThisState: 0
   Target: {fileID: 0}
   _lastKnownTargetPosition: {x: 0, y: 0, z: 0}
@@ -5263,8 +5263,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  AfterTimeMin: 3
-  AfterTimeMax: 3
+  AfterTimeMin: 20
+  AfterTimeMax: 20
 --- !u!114 &984407229902188034
 MonoBehaviour:
   m_ObjectHideFlags: 0
