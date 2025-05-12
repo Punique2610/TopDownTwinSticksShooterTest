@@ -485,7 +485,9 @@ namespace MoreMountains.TopDownEngine
 			}
 
 			CurrentWeapon.name = newWeapon.name;
-			CurrentWeapon.transform.parent = WeaponAttachment.transform;
+
+			CurrentWeapon.transform.SetParent(WeaponAttachment.transform);
+			CurrentWeapon.transform.localScale = newWeapon.transform.localScale;
 			CurrentWeapon.transform.localPosition = newWeapon.WeaponAttachmentOffset;
 			CurrentWeapon.SetOwner(_character, this);
 			CurrentWeapon.WeaponID = weaponID;

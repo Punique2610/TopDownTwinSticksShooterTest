@@ -1713,7 +1713,7 @@ MonoBehaviour:
       type: {class: MMF_LensDistortion, ns: MoreMountains.FeedbacksForThirdParty,
         asm: MoreMountains.Tools}
       data:
-        Active: 0
+        Active: 1
         UniqueID: -1343671062
         Label: Lens Distortion
         ChannelMode: 0
@@ -1889,7 +1889,7 @@ MonoBehaviour:
     - rid: 3
       type: {class: MMF_Flash, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
       data:
-        Active: 0
+        Active: 1
         UniqueID: 141748840
         Label: Flash
         ChannelMode: 0

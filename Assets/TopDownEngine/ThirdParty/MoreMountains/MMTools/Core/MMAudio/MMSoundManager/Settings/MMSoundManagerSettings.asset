@@ -34,11 +34,11 @@ MonoBehaviour:
     MusicVolume: 0.30999997
     MusicOn: 1
     MutedMusicVolume: 0
-    SfxVolume: 0.0001
+    SfxVolume: 1
     SfxOn: 0
     MutedSfxVolume: 0
     UIVolume: 1
     UIOn: 1
     MutedUIVolume: 0
     AutoLoad: 1
-    AutoSave: 0
+    AutoSave: 1
